@@ -1,0 +1,5 @@
+static void	putText(Mat img, java.lang.String text, Point org, int fontFace, double fontScale, Scalar color)
+Draws a text string.
+static void	putText(Mat img, java.lang.String text, Point org, int fontFace, double fontScale, Scalar color, int thickness)
+static Size	getTextSize(java.lang.String text, int fontFace, double fontScale, int thickness, int[] baseLine)
+Calculates the width and height of a text string.
